@@ -19,8 +19,8 @@ Systems_Programming_Fundamentals/
 
 ## Programs
 
-C Programs (1–5)
---
+###C Programs (1–5)
+
 
 **SOB 1**: Displays student information and performs four arithmetic operations (+, −, ×, ÷) using digits from a student ID.
 
@@ -33,16 +33,14 @@ C Programs (1–5)
 **SOB 5**: Reads two numbers, stores them using pointers, performs Sum / Difference / Product / Quotient, and prints the memory addresses before and after the calculations.
 
 
-Batch Scripts (6, 8)
---
+###Batch Scripts (6, 8)
 
 **SOB 6**: Creates 3 text files and 3 folders, places one file in each folder, wraps everything inside a `The_Bag` directory, and confirms completion.
 
 **SOB 8**: Creates a `myBatchScript` folder, writes a knock-knock recursion joke to `results.txt`, copies it into the folder, deletes the original, and prints "Task Complete!".
 
 
-Bash Scripts (9, 10)
---
+###Bash Scripts (9, 10)
 
 **SOB 9**: Takes an existing directory path as input, creates three subdirectories (`a`, `b`, `c`), stores text files in `a` and `b`, then moves both into `c`.
 
