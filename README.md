@@ -17,9 +17,10 @@ Systems_Programming_Fundamentals/
 └── CW1SOB10.sh     # Bash - parameterised script to generate x folders with y files each
 ```
 
-### Programs
-##
-#### C Programs (1–5)
+## Programs
+
+C Programs (1–5)
+--
 
 **SOB 1**: Displays student information and performs four arithmetic operations (+, −, ×, ÷) using digits from a student ID.
 
@@ -32,24 +33,26 @@ Systems_Programming_Fundamentals/
 **SOB 5**: Reads two numbers, stores them using pointers, performs Sum / Difference / Product / Quotient, and prints the memory addresses before and after the calculations.
 
 
-#### Batch Scripts (6, 8)
+Batch Scripts (6, 8)
+--
 
 **SOB 6**: Creates 3 text files and 3 folders, places one file in each folder, wraps everything inside a `The_Bag` directory, and confirms completion.
 
 **SOB 8**: Creates a `myBatchScript` folder, writes a knock-knock recursion joke to `results.txt`, copies it into the folder, deletes the original, and prints "Task Complete!".
 
 
-#### Bash Scripts (9, 10)
+Bash Scripts (9, 10)
+--
 
 **SOB 9**: Takes an existing directory path as input, creates three subdirectories (`a`, `b`, `c`), stores text files in `a` and `b`, then moves both into `c`.
 
 **SOB 10**: Takes 3 parameters: a path, a number of folders (x), and a number of files per folder (y). Creates the directory if it doesn't exist, generates x numbered folders each containing y numbered `.txt` files.
 
-### Installation & Usage
+## Installation & Usage
 
 No external dependencies; C compiler and terminal.
 
-#### C Programs
+### C Programs
 
 ```bash
 gcc CW1SOB1.c -o CW1SOB1
@@ -58,14 +61,14 @@ gcc CW1SOB1.c -o CW1SOB1
 
 Repeat for SOB 2-5. On Windows with MinGW, use `gcc` the same way, or compile in any standard C environment.
 
-#### Batch Scripts (Windows)
+### Batch Scripts (Windows)
 
 ```cmd
 CW1SOB6.bat
 CW1SOB8.bat
 ```
 
-#### Bash Scripts (Linux/macOS/WSL)
+### Bash Scripts (Linux/macOS/WSL)
 
 ```bash
 chmod +x CW1SOB9.sh CW1SOB10.sh
